@@ -5,6 +5,9 @@ import dao.Personne;
 import dao.PersonneDao;
 import metier.IMetier;
 import metier.PersonneMetier;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import presentation.IPersonneControleur;
 import presentation.PersonneControleur;
 
@@ -107,10 +110,21 @@ public class SimulateurDage_App {
         creditControleur = (IPersonneControleur) context.getBean("controleur");
         creditControleur.afficher_Age(1L);
     }
+    public static void test4() throws Exception{
+        ApplicationContext context =new AnnotationConfigApplicationContext("dao","metier","presentation");
+        creditControleur =(IPersonneControleur) context.getBean(IPersonneControleur.class);
+        creditControleur.afficher_Age(1L);
+        creditControleur.afficher_Age(2L);
+    }
         public static void main(String[] args) throws Exception {
       //  test1();
-        test2();
+       // test2();
+      //  test3();
+        test4();
+
+
+            }
     }
 
 
-}
+

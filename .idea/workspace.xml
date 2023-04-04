@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ddebc92-9018-470b-84f2-a7b9720ec2a9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BankatiMaraven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1JEE/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1JEE/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1JEE/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1JEE/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1JEE/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1JEE/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1JEE/lib/mysql-connector-java-8.0.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1JEE/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1JEE/src/main/java/BD/Fabrique/Fabrique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1JEE/src/main/java/BD/Fabrique/FabriqueMySql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1JEE/src/main/java/BD/Fabrique/FabriqueVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1JEE/src/main/java/BD/Fabrique/Fabriquefichiers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1JEE/src/main/java/BD/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1JEE/src/main/java/BD/TestJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfirst/src/dao/Personne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfirst/testfirst.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tptest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tptest/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tptest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tptest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tptest/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tptest/tptest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1JEE" beforeDir="false" afterPath="$PROJECT_DIR$/TP1JEE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1JEE/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP1JEE/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1JEE/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP1JEE/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1JEE/TP1JEE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TP1JEE/TP1JEE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1JEE/out/production/TP1JEE/application/SimulateurDeCredit_App.class" beforeDir="false" afterPath="$PROJECT_DIR$/TP1JEE/out/production/TP1JEE/application/SimulateurDeCredit_App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1JEE/out/production/TP1JEE/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1JEE/out/production/TP1JEE/spring-ioc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1JEE/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1JEE/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1JEE/src/application/SimulateurDeCredit_App.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1JEE/src/main/java/application/SimulateurDeCredit_App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1JEE/src/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TP1JEE/src/main/java/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1JEE/src/dao/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1JEE/src/main/java/dao/Credit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1JEE/src/dao/CreditDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1JEE/src/main/java/dao/CreditDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1JEE/src/dao/IDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1JEE/src/main/java/dao/IDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1JEE/src/matier/CreditMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1JEE/src/main/java/matier/CreditMetier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1JEE/src/matier/IMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1JEE/src/main/java/matier/IMetier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1JEE/src/presentation/CreditControleur.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1JEE/src/main/java/presentation/CreditControleur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1JEE/src/presentation/ICreditControleur.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1JEE/src/main/java/presentation/ICreditControleur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1JEE/src/spring-ioc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP1JEE/src/main/java/spring-ioc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/out/production/Test/E1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/out/production/Test/E2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/out/production/Test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/out/production/Test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/E1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/E2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankatiMraevn/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bankatiMraevn/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2NYLl21z6oMmGsfAqP80XoTqaBM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ddebc92-9018-470b-84f2-a7b9720ec2a9" name="Changes" comment="" />
+      <created>1679836218926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679836218926</updated>
+    </task>
+    <servers />
+  </component>
+</project>
