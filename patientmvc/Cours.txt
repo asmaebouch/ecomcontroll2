@@ -1,0 +1,5 @@
+Front eend => Tymleeaf / bootstrap css
+backnd => Controller -> service-> reeposittory jdbc->
+DataBase=>MySQL
+Technologies => Spring boot , Spring Framework(Spring MVC & Spring scurity)
+,Maven,Java 17, Spring Data jbdc,Tymleeaf
