@@ -7,7 +7,6 @@ public enum StatutClient {
     APPROUVE,
     ANNULE,
     TERMINE,
-    EN_COURS_DE_MODIFICATION,
     EN_ATTENTE_DE_PAIEMENT,
     EN_RETARD,
     PROSPECT
