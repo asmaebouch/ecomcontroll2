@@ -67,8 +67,6 @@ public class User2 {
         this.userPassword = password;
     }
 
-    public User2(String userName, String encode, boolean b, Role roles) {
-    }
 
     public User2(String userName, String email, String userLastName, String userFirstName,  Date dateNaissance, String telephone, Date dateDeRecrutement, Set<Role> roles, Sexe sexe, String encode) {
    this.userName=userName;

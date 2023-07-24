@@ -19,9 +19,10 @@ public class FormJuridique implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @NotEmpty(message = "Name of the Activity sector cannot be empty")
     private String nom;
-
+    public FormJuridique(String name) {
+        this.nom = name;
+    }
 
 
 

@@ -31,9 +31,14 @@ public class UserService {
         roleDao.save(adminRole);
 
         Role userRole = new Role();
-        userRole.setRoleName("User");
+        userRole.setRoleName("Collaborateur");
         userRole.setRoleDescription("Default role for newly created record");
         roleDao.save(userRole);
+
+        Role userRole2 = new Role();
+        userRole2.setRoleName("Chef De Projet");
+        userRole2.setRoleDescription("Chef De projet");
+        roleDao.save(userRole2);
 
         User2 adminUser = new User2();
         adminUser.setUserName("admin123");
@@ -58,7 +63,8 @@ public class UserService {
 
     }
     public User2 registerNewUser(SignUp jwtResponse) {
-        User2 user=new User2(
+        User2 user;
+        user = new User2(
                 jwtResponse.getUserName(),
                 jwtResponse.getEmail(),
                 jwtResponse.getUserLastName(),
@@ -72,8 +78,7 @@ public class UserService {
                 this.passwordEncoder.encode(jwtResponse.getUserPassword()));
 
 
-
-     //   user.setUserPassword(getEncodedPassword(user.getUserPassword()));
+        //   user.setUserPassword(getEncodedPassword(user.getUserPassword()));
 
         return userDao.save(user);
     }

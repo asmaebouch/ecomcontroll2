@@ -5,6 +5,7 @@ import com.gestion.gestiondeprojetstage.Entity.ERole;
 import com.gestion.gestiondeprojetstage.Entity.Role;
 import com.gestion.gestiondeprojetstage.Entity.SignUp;
 import com.gestion.gestiondeprojetstage.Entity.User2;
+import com.gestion.gestiondeprojetstage.configuration.util.JwtUtil;
 import com.gestion.gestiondeprojetstage.dao.RoleDao;
 import com.gestion.gestiondeprojetstage.dao.UserDao;
 import com.gestion.gestiondeprojetstage.service.UserService;
@@ -15,13 +16,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.net.URI;
+import java.util.Collections;
 import java.util.HashSet;
+import java.util.Optional;
 import java.util.Set;
 
 @RestController
@@ -32,6 +37,10 @@ public class UserController {
     private PasswordEncoder passwordEncoder;
     @Autowired
     UserDao userDao;
+    @Autowired
+    JwtUtil jwtUtil;
+    @Autowired
+    RoleDao roleDao;
 
     @Autowired
     public UserController(UserService userService) {
@@ -43,11 +52,16 @@ public class UserController {
         userService.initRolesAndUser();
     }
 
-     @PostMapping(value = "/registerNewUser", consumes = MediaType.APPLICATION_JSON_VALUE)
+     @PostMapping(value = "/registerNewUser")
          public User2 registerNewUser (@RequestBody SignUp user){
+         user.setRoles(user.getRoles());
+         User2 user2= userService.registerNewUser(user);
+        // jwtUtil.generateToken((UserDetails) user);
+       //  user2.setUserPassword(jwtUtil.generateToken( user2));
+         return user2;
 
-         return userService.registerNewUser(user);
      }
+
     public String getEncodedPassword(String password){
         return passwordEncoder.encode(password);
     }

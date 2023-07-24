@@ -60,9 +60,9 @@ private SecteurActivityRepository secteurActivityRepository;
     public Client registreClient(@RequestBody Client clients){
      //   SecateursActivity secteurActivite = secteurActivityRepository.save(clients.getSecteurActivite());
        // secteurActivityRepository.save(secteurActivite);
+        clients.setFormJuridique(clients.getFormJuridique());
 
         clients.setSecteurActivite(clients.getSecteurActivite());
-
         return clientService.registreClient(clients);
               }
     @GetMapping("/getClients")
@@ -71,4 +71,16 @@ private SecteurActivityRepository secteurActivityRepository;
     public List<Client> clientList(){
         return clientService.getClients() ;
     }
+
+@DeleteMapping("/deleteClient")
+@PreAuthorize("hasRole('Admin')")
+    public void deleteClient(@RequestParam Integer id){
+clientService.deleteClient(id);
+    }
+
+
+
+
+
+
 }

@@ -35,7 +35,7 @@ public class Client implements Serializable {
     private Date   CreeLe;
   //  @NotEmpty(message = "Forme  cannot be empty")
 
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     private FormJuridique FormJuridique;
   //  @NotEmpty(message = "Activity sector  cannot be empty")
 
