@@ -1,10 +1,9 @@
 package com.gestion.gestiondeprojetstage.Entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.ManyToAny;
 
-import java.io.Serializable;
 import java.util.Date;
 
 @Entity
@@ -13,11 +12,12 @@ import java.util.Date;
 @AllArgsConstructor
 @Builder
 @ToString
-public class Tache implements Serializable {
+public class Tache  {
     @Id     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
     private Long id;
-@ManyToOne(cascade = CascadeType.ALL)
+    @JsonIgnoreProperties("tache")
+    @ManyToOne(fetch = FetchType.EAGER,optional = true)
     private SousProjet sousProjet;
   private String Titre;
   private Date  date_Debut;

@@ -11,4 +11,5 @@ import java.util.Optional;
 public interface RoleDao extends CrudRepository<Role,String> {
 
 
+    Role findByRoleName(String roles);
 }

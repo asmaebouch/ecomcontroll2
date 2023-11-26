@@ -1,0 +1,17 @@
+package com.gestion.gestiondeprojetstage.Entity;
+
+public enum StatutProjet {
+    EN_ATTENTE,
+    EN_COURS,
+    TRMINE,
+    SUSPENDU,
+    ANNULE,
+    RETARDE,
+EN_EVALUATION,
+EN_PLANIFICATION,
+EN_DEVELOPPEMENT,
+EN_TEST,
+EN_MAINTENANCE,
+EN_REVISION,
+EN_ATTENTE_APPROBATION
+}

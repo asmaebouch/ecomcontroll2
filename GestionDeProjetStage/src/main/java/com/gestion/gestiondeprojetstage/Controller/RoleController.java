@@ -37,5 +37,16 @@ public class RoleController {
 
         return secteurNames;
     }
+  /*  @GetMapping({"/roles"})
 
+    public List<Role> getRoles() {
+        List<Role> secteurs = roleService.getRoles();
+        List<String> secteurNames = new ArrayList<>();
+
+        for (Role secteur : secteurs) {
+            secteurNames.add(secteur.getRoleName());
+        }
+
+        return roleService.getRoles();
+    }*/
 }

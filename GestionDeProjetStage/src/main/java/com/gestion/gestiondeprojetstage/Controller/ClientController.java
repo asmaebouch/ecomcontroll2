@@ -1,20 +1,22 @@
 package com.gestion.gestiondeprojetstage.Controller;
 
 import com.gestion.gestiondeprojetstage.Entity.Client;
-import com.gestion.gestiondeprojetstage.Entity.SecateursActivity;
-import com.gestion.gestiondeprojetstage.Repository.ClientRepository;
+import com.gestion.gestiondeprojetstage.Repository.FormJuridiqueRpository;
+import com.gestion.gestiondeprojetstage.Repository.ProjetRepository;
 import com.gestion.gestiondeprojetstage.Repository.SecteurActivityRepository;
+import com.gestion.gestiondeprojetstage.dao.ClientRpository;
 import com.gestion.gestiondeprojetstage.service.ClientService;
 import com.gestion.gestiondeprojetstage.service.JwtService;
 import com.gestion.gestiondeprojetstage.service.SecteurActvity;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.data.repository.query.Param;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
-import java.awt.*;
-import java.util.Collections;
+import java.util.ArrayList;
 import java.util.List;
 
 //creer  un webservicee sans passer paar un database
@@ -23,11 +25,16 @@ import java.util.List;
 
 public class ClientController {
 @Autowired
-    private ClientRepository clientRepository;
+    private ClientRpository clientRepository;
+@Autowired
+private FormJuridiqueRpository  formJuridiqueRpository;
+@Autowired
+private ProjetRepository projetRepository;
+
 @GetMapping(value = "/listClient/{id}")
 //rien par defaut c'est json
 public Client clientList(@PathVariable(name = "id") Long id){
-return  clientRepository.findById(id).get();
+return  clientRepository.findById(id);
 }
     @PutMapping(value = "/listClient/{id}")
 //rien par defaut c'est json
@@ -51,35 +58,79 @@ return  clientRepository.findById(id).get();
     private ClientService clientService;
 private SecteurActvity secteurActvity;
     @Autowired
-    @Qualifier("secteurActivityRepository")
 private SecteurActivityRepository secteurActivityRepository;
     @Autowired
     private JwtService jwtService;
     @PostMapping("/registreClient")
     @PreAuthorize("hasRole('Admin')")
-    public Client registreClient(@RequestBody Client clients){
-     //   SecateursActivity secteurActivite = secteurActivityRepository.save(clients.getSecteurActivite());
-       // secteurActivityRepository.save(secteurActivite);
-        clients.setFormJuridique(clients.getFormJuridique());
+    public Client registreClient(@RequestBody Client clients) {
 
-        clients.setSecteurActivite(clients.getSecteurActivite());
+        // Set the existing FormJuridique and SecteurActivite to the client
+
+        //formJuridiqueRpository.save(existingFormJuridique);
         return clientService.registreClient(clients);
-              }
+    }
+
+
     @GetMapping("/getClients")
     @PreAuthorize("hasRole('Admin')")
+    public ResponseEntity<Page<Client>> getClientPage(
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "10") int size) {
+        Pageable pageable = PageRequest.of(page, size);
+        Page<Client> clientPage = clientService.getClients(pageable);
 
-    public List<Client> clientList(){
-        return clientService.getClients() ;
+        //System.out.println("clients: {}"+ clientPage);
+
+        return ResponseEntity.ok(clientPage);
+    }
+    @PutMapping("/updateClints")
+    @PreAuthorize("hasRole('Admin')")
+public Client updateClients(@RequestBody Client client){
+      /*  String secteurActiviteId = client.getSecteurActivite().getNom();
+        SecateursActivity optionalSecteurActivity = secteurActivityRepository.findByNom(secteurActiviteId);
+        String formJuridiqueId = client.getFormJuridique().getNom();
+        FormJuridique existingFormJuridique = formJuridiqueRpository.findByNom(formJuridiqueId)
+                ;
+
+        // Set the existing FormJuridique to the client
+        client.setFormJuridique(existingFormJuridique);
+        client.setSecteurActivite(optionalSecteurActivity);*/
+     return   clientService.updateClient(client);
+
     }
 
-@DeleteMapping("/deleteClient")
-@PreAuthorize("hasRole('Admin')")
-    public void deleteClient(@RequestParam Integer id){
-clientService.deleteClient(id);
+
+    @DeleteMapping("/deleteClient")
+    @PreAuthorize("hasRole('Admin')")
+    public void deleteClient(@RequestParam Long id) {
+     clientService.deleteClient(id);
+
     }
 
+    @GetMapping("/ClientList")
+    @PreAuthorize("hasRole('Admin')")
+    public List<String> getClient() {
+        List<Client> secteurs = clientService.getClients2();
+        List<String> secteurNames = new ArrayList<>();
 
+        for (Client secteur : secteurs) {
+            secteurNames.add(secteur.getNom());
+        }
 
+        return secteurNames;
+    }
+
+    @GetMapping("/checkCode/{code}")
+    public ResponseEntity<Boolean> checkCode(@PathVariable String code) {
+        boolean isUnique = clientService.isCodeUnique(code);
+        return ResponseEntity.ok(isUnique);
+    }
+    @GetMapping("/checkTelephone/{telephone}")
+    public ResponseEntity<Boolean> checkTelephone(@PathVariable String Telephone) {
+        boolean isUnique = clientService.isTelephoneUnique(Telephone);
+        return ResponseEntity.ok(isUnique);
+    }
 
 
 

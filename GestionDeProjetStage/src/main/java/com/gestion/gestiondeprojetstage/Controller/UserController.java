@@ -1,8 +1,6 @@
 package com.gestion.gestiondeprojetstage.Controller;
 
 
-import com.gestion.gestiondeprojetstage.Entity.ERole;
-import com.gestion.gestiondeprojetstage.Entity.Role;
 import com.gestion.gestiondeprojetstage.Entity.SignUp;
 import com.gestion.gestiondeprojetstage.Entity.User2;
 import com.gestion.gestiondeprojetstage.configuration.util.JwtUtil;
@@ -10,24 +8,13 @@ import com.gestion.gestiondeprojetstage.dao.RoleDao;
 import com.gestion.gestiondeprojetstage.dao.UserDao;
 import com.gestion.gestiondeprojetstage.service.UserService;
 import jakarta.annotation.PostConstruct;
-import jakarta.validation.Valid;
-import org.aspectj.bridge.Message;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import java.net.URI;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Optional;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 public class UserController {
@@ -54,6 +41,7 @@ public class UserController {
 
      @PostMapping(value = "/registerNewUser")
          public User2 registerNewUser (@RequestBody SignUp user){
+         System.out.println("bloub");
          user.setRoles(user.getRoles());
          User2 user2= userService.registerNewUser(user);
         // jwtUtil.generateToken((UserDetails) user);
@@ -61,12 +49,29 @@ public class UserController {
          return user2;
 
      }
+    @GetMapping("/getCollaborateur")
+    @PreAuthorize("hasRole('Admin')")
 
+    public List<User2> userList(){
+
+        return userService.getUser2() ;
+    }
     public String getEncodedPassword(String password){
         return passwordEncoder.encode(password);
     }
-    
+    @DeleteMapping("/deleteCollborateur")
+    @PreAuthorize("hasRole('Admin')")
+    public void deleteUser(@RequestParam String userName){
+        System.out.println("holaa");
+        userService.deleteUser(userName);
+    }
+    @PutMapping("/updateUser")
+    @PreAuthorize("hasRole('Admin')")
+    public User2 updateUser(@RequestBody User2 client){
 
+        return   userService.updateUser(client);
+
+    }
 
    /* @PostMapping(value = "/registerNewUser", consumes = MediaType.APPLICATION_JSON_VALUE)
        public ResponseEntity<String> registerNewUser(@RequestBody User2 signUpRequest) {
@@ -128,4 +133,17 @@ public class UserController {
     public String forUser(){
         return "This UrRL is only accessiblee to th user";
     }
+    @GetMapping("/UserList")
+    @PreAuthorize("hasAnyRole('Admin', 'User')")
+    public List<String> getUser() {
+        List<User2> secteurs = userService.getUser2();
+        List<String> secteurNames = new ArrayList<>();
+
+        for (User2 secteur : secteurs) {
+            secteurNames.add(secteur.getUserName());
+        }
+
+        return secteurNames;
+    }
+
 }

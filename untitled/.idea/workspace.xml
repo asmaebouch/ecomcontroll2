@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="72447c0e-6c19-4ff3-8ffc-8ef64f05c590" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ENV/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ENV/.idea/ENV.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ENV/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ENV/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gateway-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gateway-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gateway-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gateway-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gateway-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gateway-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gateway-service/src/main/java/com/example/gatewayservice/GatewayServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gateway-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gateway-service/src/test/java/com/example/gatewayservice/GatewayServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geet/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geet/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geet/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geet/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geet/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geet/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geet/src/main/java/com/example/geet/GeetApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geet/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Geet/src/test/java/com/example/geet/GeetApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Controller/EquipeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Controller/FormWithClientsDTOController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Controller/TacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/Equipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/FormWithClientsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/Role2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Repository/EquipeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/service/EquipeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTicket3/src/main/java/com/example/gestionticket3/Controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTicket3/src/main/java/com/example/gestionticket3/Dao/DaoImpl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTicket3/src/main/java/com/example/gestionticket3/Dao/DaoImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTicket3/src/main/java/com/example/gestionticket3/Dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTicket3/src/main/java/com/example/gestionticket3/Entity/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTicket3/src/main/java/com/example/gestionticket3/Entity/Equipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTicket3/src/main/java/com/example/gestionticket3/Entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTicket3/src/main/java/com/example/gestionticket3/Entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTicket3/src/main/java/com/example/gestionticket3/Entity/Terrain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTicket3/src/main/java/com/example/gestionticket3/Entity/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTicket3/src/main/java/com/example/gestionticket3/Entity/Utilisateur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTicket3/src/main/java/com/example/gestionticket3/Entity/Ville.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTicket3/src/main/java/com/example/gestionticket3/Service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTicket3/src/main/java/com/example/gestionticket3/Service/IService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTicket3/src/main/java/com/example/gestionticket3/Service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTicket3/src/main/java/com/example/gestionticket3/Service/ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionTicket3/src/test/java/com/example/gestionticket3/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gestion_Ticket/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gestion_Ticket/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gestion_Ticket/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gestion_Ticket/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gestion_Ticket2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gestion_Ticket2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gestion_Ticket2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gestion_Ticket2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gestion_Ticket2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gestion_Ticket2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gestion_Ticket2/src/main/java/com/example/gestion_ticket2/GestionTicket2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gestion_Ticket2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gestion_Ticket2/src/test/java/com/example/gestion_ticket2/GestionTicket2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gestionti/src/main/java/com/example/gestionti/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gestionti/src/main/java/com/example/gestionti/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP3/src/main/java/com/example/tp3/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP3/src/main/java/com/example/tp3/controller/ExceptionHandlerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP3/src/main/java/com/example/tp3/dao/DaoImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP3/src/main/java/com/example/tp3/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP3/src/main/java/com/example/tp3/domaine/ArticleConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP3/src/main/java/com/example/tp3/domaine/ArticleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP3/src/main/java/com/example/tp3/domaine/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP3/src/main/java/com/example/tp3/service/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP3/src/main/java/com/example/tp3/service/model/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ddeemo1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/Repository/BilletRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/Repository/CatégorieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/Repository/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/Repository/ComdHisRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/Repository/EquipeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/Repository/MatchRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/Repository/StadeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/controller/StadeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/domaine/stadeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Billet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Categorie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Catégorie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Commandes_Historique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Equipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Stade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Statut_commande.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Statut_reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/IstadeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/StadeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/test/java/com/example/demo/BilletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Authntification/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Authntification/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Controller/FormJuridiqueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Controller/FormJuridiqueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Controller/SousProjetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Controller/SousProjetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/FormJuridique.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/FormJuridique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/Projet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/Projet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/SecateursActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/SecateursActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/SousProjet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/SousProjet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/Tache.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/Tache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/User2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Entity/User2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Repository/ClientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Repository/FormJuridiqueRpository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Repository/FormJuridiqueRpository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Repository/SousProjetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Repository/SousProjetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Repository/TacheRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/Repository/TacheRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/dao/ClientRpository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/dao/ClientRpository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/dao/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/service/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/service/FormJuridiqueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/service/FormJuridiqueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/service/SousProjetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/service/SousProjetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/service/TacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/service/TacheService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionDeProjetStage/src/main/java/com/gestion/gestiondeprojetstage/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JwtAngular" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBank_web/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBank_web/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBank_web/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBank_web/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBank_web/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBank_web/.idea/libraries/lib__8_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBank_web/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBank_web/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBank_web/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBank_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBank_web/src/main/webapp/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBank_web/src/main/webapp/css/monStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBank_web/src/main/webapp/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBank_web/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBank_web/src/main/webapp/response.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/MyFirstTpJEE.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/lib/scala-library-2.13.11-M1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/lib/spring-aop-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/lib/spring-beans-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/lib/spring-context-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/lib/spring-core-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/lib/spring-expression-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/lib/spring-web-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/lib/spring-webmvc-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/out/production/MyFirstTpJEE/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/out/production/MyFirstTpJEE/application/SimulateurDage_App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/out/production/MyFirstTpJEE/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/out/production/MyFirstTpJEE/dao/IDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/out/production/MyFirstTpJEE/dao/Personne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/out/production/MyFirstTpJEE/dao/PersonneDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/out/production/MyFirstTpJEE/metier/IMetier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/out/production/MyFirstTpJEE/metier/PersonneMetier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/out/production/MyFirstTpJEE/presentation/IPersonneControleur.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/out/production/MyFirstTpJEE/presentation/PersonneControleur.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/out/production/MyFirstTpJEE/spring-ioc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/src/application/SimulateurDage_App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/src/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/src/dao/IDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/src/dao/Personne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/src/dao/PersonneDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/src/metier/IMetier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/src/metier/PersonneMetier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/src/presentation/IPersonneControleur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/src/presentation/PersonneControleur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstTpJEE/src/spring-ioc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fullcalendar-6.1.8/.idea/fullcalendar-6.1.8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fullstack-jwt-chapter_2/backend/src/main/java/com/sergio/jwt/backend/entites/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fullstack-jwt-chapter_2/backend/src/main/java/com/sergio/jwt/backend/entites/RoleEE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/java/com/youtube/jwt/JwtYoutubeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/java/com/youtube/jwt/configuration/CorsConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/java/com/youtube/jwt/configuration/JwtAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/java/com/youtube/jwt/configuration/JwtRequestFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/java/com/youtube/jwt/configuration/WebSecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/java/com/youtube/jwt/controller/JwtController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/java/com/youtube/jwt/controller/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/java/com/youtube/jwt/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/java/com/youtube/jwt/dao/RoleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/java/com/youtube/jwt/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/java/com/youtube/jwt/entity/JwtRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/java/com/youtube/jwt/entity/JwtResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/java/com/youtube/jwt/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/java/com/youtube/jwt/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/java/com/youtube/jwt/service/JwtService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/java/com/youtube/jwt/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/java/com/youtube/jwt/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/java/com/youtube/jwt/util/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/resources/Templates/Registre.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/resources/Templates/forAdmin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/resources/Templates/forUser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/resources/Templates/hh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/resources/Templates/sdfsd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/resources/Templates/uthen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwtAngular-main/src/test/java/com/youtube/jwt/JwtYoutubeApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patientmvc/Cours.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patientmvc/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patientmvc/src/main/java/com/example/patientmvc/BD/JDBC_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patientmvc/src/main/java/com/example/patientmvc/BD/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patientmvc/src/main/java/com/example/patientmvc/entities/Medecin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patientmvc/src/main/java/com/example/patientmvc/entities/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patientmvc/src/main/java/com/example/patientmvc/entities/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patientmvc/src/main/java/com/example/patientmvc/entities/Secretaire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patientmvc/src/main/java/com/example/patientmvc/entities/Sexe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patientmvc/src/main/java/com/example/patientmvc/entities/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectnode/.idea/projectnode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectnode/ffff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projetnode/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/lib/scala-library-2.13.11-M1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/lib/spring-aop-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/lib/spring-beans-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/lib/spring-context-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/lib/spring-core-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/lib/spring-expression-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/lib/spring-web-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/lib/spring-webmvc-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/src/application/SimulateurDage_App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/src/dao/IDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/src/dao/Personne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/src/dao/PersonneDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/src/metier/IMetier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/src/metier/PersonneMetier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/src/presentation/IPersonneControleur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/src/presentation/PersonneControleur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testfirst/testfirst.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Tetv5ajniL18MgZvXPtSoYcvO8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Asmae/IdeaProjects/untitled&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72447c0e-6c19-4ff3-8ffc-8ef64f05c590" name="Changes" comment="" />
+      <created>1691415603858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691415603858</updated>
+      <workItem from="1691415608298" duration="115000" />
+      <workItem from="1691415777537" duration="819000" />
+      <workItem from="1699861594956" duration="254000" />
+      <workItem from="1699862136532" duration="3000" />
+      <workItem from="1699863497865" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

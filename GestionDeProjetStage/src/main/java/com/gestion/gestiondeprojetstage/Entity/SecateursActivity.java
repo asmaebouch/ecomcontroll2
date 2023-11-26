@@ -1,13 +1,13 @@
 package com.gestion.gestiondeprojetstage.Entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.*;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Data
@@ -15,6 +15,8 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Builder
 @ToString
+@Table(uniqueConstraints = @UniqueConstraint(columnNames = "nom")) // Add this line
+
 public class SecateursActivity  implements Serializable {
 
     @Id
@@ -22,9 +24,12 @@ public class SecateursActivity  implements Serializable {
 
     private Long id;
     @NotEmpty(message = "Name of the Activity sector cannot be empty")
-    private String Nom;
+    private String nom;
+    @JsonIgnoreProperties("SecteurActivite")
+    @OneToMany
+    private List<Client> clients=new ArrayList<>();
     public SecateursActivity(String name) {
-        this.Nom = name;
+        this.nom = name;
     }
 
 }
