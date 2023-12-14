@@ -2,21 +2,36 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Gateway-service" />
-        <module name="Tp3JEE" />
-        <module name="config-service" />
+        <module name="config-server" />
+        <module name="inventory-service2" />
+        <module name="dscoveryeureka" />
+        <module name="customerservice" />
+        <module name="ddeemo1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-service" target="17" />
+      <module name="Config2-server" target="17" />
+      <module name="Tp3JEE" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Config2-server" options="-parameters" />
       <module name="Gateway-service" options="-parameters" />
       <module name="Tp3JEE" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="config-service" options="-parameters" />
+      <module name="customerservice" options="-parameters" />
+      <module name="ddeemo1" options="-parameters" />
+      <module name="dscoveryeureka" options="-parameters" />
+      <module name="inventory-service2" options="-parameters" />
     </option>
   </component>
 </project>

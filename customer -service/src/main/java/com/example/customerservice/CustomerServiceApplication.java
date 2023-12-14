@@ -16,9 +16,9 @@ public class CustomerServiceApplication {
 @Bean
 	CommandLineRunner strat(CustomerRepositor customerRepositor){
 		return args -> {
-customerRepositor.save(new Customer(null,"imane","imae@gmail.com"));
-			customerRepositor.save(new Customer(null,"imane2","imae@gmail.com"));
-			customerRepositor.save(new Customer(null,"imane2","imae@gmail.com"));
+customerRepositor.save(new Customer(null,"imane","imae@gmail.com",1l));
+			customerRepositor.save(new Customer(null,"imane2","imae@gmail.com",1l));
+			customerRepositor.save(new Customer(null,"imane2","imae@gmail.com",1l));
 
 
 

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
@@ -7,10 +6,24 @@
         <option value="$PROJECT_DIR$/../Gateway-service/pom.xml" />
         <option value="$PROJECT_DIR$/../Tp3JEE/pom.xml" />
         <option value="$PROJECT_DIR$/../config-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../ddeemo1/pom.xml" />
+        <option value="$PROJECT_DIR$/../customer -service/pom.xml" />
+        <option value="$PROJECT_DIR$/../inventory-service2/pom.xml" />
+        <option value="$PROJECT_DIR$/../dscoveryeureka/pom.xml" />
+        <option value="$USER_HOME$/IdeaProjects/Config2-server/pom.xml" />
+        <option value="$USER_HOME$/IdeaProjects/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../config-server/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$USER_HOME$/IdeaProjects/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../Tp3JEE/pom.xml" />
+        <option value="$PROJECT_DIR$/../config-service/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="20" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
